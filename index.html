@@ -1,1 +1,197 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prasad Mudedla</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        $(function() {
+            $("#slider").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#slider1").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#slider2").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#slider3").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+    </script>
+    <!--start-smoth-scrolling-->
+
+
+</head>
+
+<body>
+    <!--header-->
+    <div id="home" class="banner">
+        <div class="top-menu">
+            <span class="menu"> </span>
+            <nav class="cl-effect-1" id="cl-effect-1">
+                <ul>
+                    <li><a class="scroll" href="#banner-top">HOME</a></li>
+                    <li><a class="scroll" href="#about">ABOUT</a></li>
+                    <li><a class="scroll" href="#photography">PHOTOGRAPHY</a></li>
+                    <li><a class="scroll" href="#skills">SKILLS</a></li>
+                    <li><a class="scroll" href="#contact">SOCIAL</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- script-for-menu -->
+        <script>
+            $("span.menu").click(function() {
+                $(".top-menu ul").slideToggle("slow", function() {});
+            });
+        </script>
+        <!-- script-for-menu -->
+        <div id="banner-top" class="banner-top">
+            <h1>PRASAD</h1>
+            <h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I dream BIG</h2>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" width="100" height="90" /></a>
+            </div>
+        </div>
+    </div>
+    <!--/header-->
+    <!--about-->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="about-info">
+                <h3>ABOUT</h3>
+                <h4>Who I am and what I love</h4>
+                <p>I am a Tech enthusiast, love to learn and test new Technologies<br>I love Coding, Photography & Music </p>
+            </div>
+            <div class="about-grids">
+                <div class="col-md-6 about-grid">
+                    <h4>My goals</h4>
+                    <p>To design a Mobile which is truly a Personal Assistant</p>
+                </div>
+                <div class="col-md-6 about-grid">
+                    <h4>What is my Profession and experience</h4>
+                    <p>I am a passionate Quality analyst with 3.3 years of experience on Mobile, Web-based,API Automation and Perfomance testing. I am looking for a challenging position to apply my knowledge and skills that gives better opportunity to motivate my professional career</p>
+
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--/about-->
+    <!--photography-->
+    <div id="photography" class="photography">
+        <div class="container">
+            <div class="photography-info">
+                <h3>Photography</h3>
+                <p>I love to capture the Nature. Colours that touch my eyes & <br>Nature that touch my soul get preserved in my photographs. <br><br></p>
+                <p>I somehow find that perfection is the enemy of good because we <br> tend to restrict our imagination & creativity once we attain perfection.<br><br></p>
+                <p>In photography i am always on a learning curve & its always good to be hungry for more...<br><br><br><br></p>
+                <div class="price-button">
+                    <a href="http://prasadmudedla.wix.com/photos " target="_blank" class="hvr-shutter-in-vertical">Have a look at my Photography</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/photography-->
+    <!--/skills-->
+    <div id="skills" class="skills">
+        <div class="container">
+            <div class="skills-info">
+                <h3>SKILLS</h3>
+                <p><br><br><br><br><br>...Work In Progress...<br><br><br><br><br></p>
+
+            </div>
+        </div>
+    </div>
+    <!--/skills-->
+    <!--footer-->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="contact-icons">
+                <br><br><br><br><br><br>
+                <p>Get in touch with me!</p>
+                <br>
+                <a href="https://www.facebook.com/prasadmudedla" target="_blank"><img src="images/Facebook.png" width="40" height="40" /></a>
+                <a href="https://twitter.com/Prasadmudedla" target="_blank"><img img style="margin-left: 1em" src="images/Twitter.png" width="40 height="40"/></a>
+                <a href=" https://plus.google.com/u/0/115321971626430240306" target="_blank"><img style="margin-left: 1em" src="images/GooglePlus.png" width="40" height="40" /></a>
+                <a href="https://www.instagram.com/prasadmudedla/" target="_blank"><img style="margin-left: 1em" src="images/Instagram.png" width="40" height="40" /></a>
+                <a href="https://in.linkedin.com/in/prasad-mudedla-20078368/" target="_blank"><img style="margin-left: 1em" src="images/LinkedIn.png" width="40" height="40" /></a>
+                <a href="mailto:prasadmudedla@outlook.com"><img style="margin-left: 1em" src="images/Mail.png" width="40" height="40" /></a>
+                <br><br><br><br><br><br><br>
+
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+
+                    $().UItoTop({
+                        easingType: 'easeOutQuart'
+                    });
+
+                });
+            </script>
+            <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        </div>
+        <!--/footer-->
+</body>
+
+</html>
